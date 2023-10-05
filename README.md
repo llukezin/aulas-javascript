@@ -12,3 +12,15 @@
 - Funcionalidades de navegação
 - Validações mais avançadas de formulário
 - JS pode ser usado até mesmo para criação de aplicativos e games
+
+# tipos de dados mais comuns no JS
+
+- String (teztos em geral)
+- Number (numeros inteiros, decimais, octais etc)
+- Array (vetor/matrix - lista de dados indexados)
+- Object (dados não indexados com propriedades e valores)
+- Boolean (Booleano, valores "true/verdadeiro" ou "false/falso")
+
+Dica: se quiser verificar o tipo de dados de uma variavel/constante, use o comando "typeof nomeDaVariavel". 
+
+
