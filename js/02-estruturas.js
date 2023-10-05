@@ -42,5 +42,22 @@ console.log(carro.modelo);
 console.log(`Carros da ${carro.marca} tem a cor ${carro.cor}`);
 console.log(`Este carro tem ${carro.opcionais[0]} e ${carro.opcionais[2]}`);
 
+ /* Exercicio
+ 1)crie um novo contendo informações de algo que você gosta (filme, livro comida, jogo etc)
+ 
+ 2) Mostre uma mensagem com pelo menos 2 propriedades do objeto que você criou. */
+
+ let pizza = {
+    tipo: ["Salgada", "doce"], 
+    sabor: "Toscana",
+    borda: "Catupiry",
+
+    
+}
+    
+ 
+
+
+
 
 
