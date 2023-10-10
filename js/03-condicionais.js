@@ -5,8 +5,8 @@ o programa pode execurtar ações diferentes.
 
 comandos mais comuns: if (se), else (senão), else if (senão se)  */
 
-let usuario = "juean";
-let idade = 25;
+let usuario = prompt("Qual o seu nome?");
+let idade = prompt('Quantos anos você tem?');
 
 let mensagem; //indefinida/undefined
 
@@ -19,3 +19,4 @@ if( idade >= 18 ){
 
 //apresentando os reusltados apos a condicional
 console.log(`${usuario} é ${mensagem} de idade!`);
+alert(`${usuario} é ${mensagem} de idade!`);
