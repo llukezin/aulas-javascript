@@ -1,3 +1,7 @@
+/* habilitando o modo estriton do JS 
+"use strict"; */
+
+
 let nota1 = 7;
 let nota2 = 8;
 
