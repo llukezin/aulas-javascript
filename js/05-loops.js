@@ -41,6 +41,7 @@ let clientes = [
 
 ];
 
+// cache da quantidade de elementos do array
 let quantidade = clientes.length;
 
 for( let i = 0; i < quantidade; i++  ){
