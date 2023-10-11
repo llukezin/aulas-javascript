@@ -1,3 +1,5 @@
+"use strict";
+
 /*  Comados de Repetição
 instuções para realizar ações por uma quantidade
 específica de vezes.
@@ -18,8 +20,29 @@ obs.: normalmente o loop é controlado através de uma variávrl contadora. - */
 
 // EXEMPLO DO/WHILE (FAÇA/ENQUANTO)
 
-let contador = 10;
-do {
-    console.log(`Contador vale: ${contador}`);
-    contador++;
-} while ( contador <= 3 )
+// let i = 10;
+// do {
+//   console.log(`i vale: ${i}`);
+//    i++;
+// } while ( i <= 3 )
+
+// EXEMPLO FOR (PARA)
+// for( let i = 1; i <= 10; i++ ){
+//    console.log(`i vale ${i}`);
+// }
+
+/* Loop com array */
+let clientes = [
+    "Dio",
+    "Gillan",
+    "Martin",
+    "Marps",
+    "Mercury",
+
+];
+
+let quantidade = clientes.length;
+
+for( let i = 0; i < quantidade; i++  ){
+    console.log(`Cliente: ${clientes[i]}`);
+}
