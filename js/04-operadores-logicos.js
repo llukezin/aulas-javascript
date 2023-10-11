@@ -46,3 +46,13 @@ if( faltas > limiteDeFaltas ){
  } else {
     console.log("Vá trabalhar...");
  }
+
+ console.log("-----------------------");
+
+ /*  Operador lógico ! (NOT - NÃO/NEGAÇÃO) */
+ let blackFriday = true;
+ if( !blackFriday){
+    console.log("preços normais...");
+ } else {
+    console.log("preços com desconto...");
+ }
