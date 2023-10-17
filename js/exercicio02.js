@@ -15,8 +15,12 @@ let alunos = [
     }
 ];
  
-let alunos = 1;
- while(contador <=5 ){
-   console.log(`Valor de contador: ${contador}`);
-   contador++;  ++ incremento
- }
+let contagem = alunos.length;
+
+ 
+
+for(let i = 0; i < contagem; i++){
+
+    console.log(`Clientes: ${alunos[i].nome}`);
+
+}
