@@ -43,27 +43,28 @@ console.log(somar ( 30, 47.8) );
 /* Chamamos a função diversas vezes e passando valores diferentes como parâmetros. */
 
 console.log( somar(10,20));
-
 console.log( somar(10,20));
-
 console.log( somar(10,20));
-
- 
 
 /* Formatação de valores em reais */
 
- 
-
 let preco = 5500;
-
 let desconto = preco * 0.10; //
-
 let precoFinal = preco - desconto;
 
  
 
-console.log(`Preço: ${preco.toLocaleString()}`);
+console.log(`Preço: ${preco.toLocaleString("pt-br", {
+    style:  "currency",
+    currency: "BRL"
+})}`);
 
-console.log(`desconto: ${desconto.toLocaleString()}`);
+console.log(`desconto: ${desconto.toLocaleString("pt-br", {
+    style:  "currency",
+    currency: "BRL"
+})}`);
 
-console.log(`Preço final: ${precoFinal.toLocaleString()}`);
+console.log(`Preço final: ${precoFinal.toLocaleString("pt-br", {
+    style:  "currency",
+    currency: "BRL"
+})}`);
