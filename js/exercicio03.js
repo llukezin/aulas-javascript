@@ -14,5 +14,17 @@ a função terminar sua execução */
 let valorConvertido = converteMoeda(valorDaCotacaoDoDia, valorEmDolares);
 
 //saidas apos o processamento 
-console.log(valorEmDolares);// quanto que era em dolares 
-console.log(valorConvertido);// quanto que fica em reias
+//console.log(valorEmDolares);// quanto que era em dolares 
+//console.log(valorConvertido);// quanto que fica em reias
+
+console.log(formatarMoeda(valorEmDolares, "en", "USD"));
+console.log(formatarMoeda(valorConvertido, "pt-br", "BRL"));
+
+function formatarMoeda(valor, local, moeda){
+    let opcoes = {
+        style: "currency",
+        currency: "BRL"
+    };
+
+    return valor.toLocaleString(local, opcoes);
+}
