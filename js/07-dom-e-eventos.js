@@ -19,7 +19,7 @@ const descricao = document.querySelector("#descricao");
 console.log(desenho);
 console.log(descricao);
 
-const variosElemetos = document.querySelectorAll("h3","a");
+const variosElemetos = document.querySelectorAll("h3", "a");
 console.log(variosElemetos);
 console.log(variosElemetos[1]);
 
@@ -35,10 +35,21 @@ console.log(linksReferencia);
 
 let quantidadeDeLinks = linksReferencia.length;
 
-for(let link of linksReferencia){
+for (let link of linksReferencia) {
     link.setAttribute("target", "_blank");
 }
 
 //for( let i = 0; i < quantidadeDeLinks; i++ ){
 //    linksReferencia[i].setAttribute("target", "_blank");
 //}
+
+/*  Manipulando Eventos  */
+const pagina = document.querySelector("body");
+const exemplo01 = document.querySelector("#exemplo01");
+const mensagem = document.querySelector("#mensagem");
+
+exemplo01.addEventListener("click", function(){
+    pagina.style.fontFamily = "Verdana";
+    mensagem.textContent = "Fonte alterada!";
+    mensagem.style.backgroundColor = "yellow";
+});
