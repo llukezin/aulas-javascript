@@ -63,3 +63,25 @@ exemplo01.addEventListener("click", function(){
     // removemoso atributo 
     imagemMeme.removeAttribute("hidden");
 });
+
+// exemplo modo noturno
+const botao = document.querySelector("#noturno");
+
+botao.addEventListener("click", gerenciarModoNoturno) ;
+
+function gerenciarModoNoturno(){
+    pagina.classList.toggle("modo-noturno");
+    
+
+    /*  Exercicio faça aqui mesmo neste lugar exatamente aqui */
+
+    if(pagina.className == "modo-noturno") {
+        botao.textContent="desativar";}
+    else {
+        botao.textContent = "ativar"
+    }    
+
+    /* Se a página estiver com a classe chamada "modo-noturno",
+    então mude o texto do botão para  "desativar".
+    caso contrario, faça o botãon exibir o texto "ativar" */
+}
