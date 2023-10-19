@@ -48,8 +48,18 @@ const pagina = document.querySelector("body");
 const exemplo01 = document.querySelector("#exemplo01");
 const mensagem = document.querySelector("#mensagem");
 
+const reprodutorAudio = document.querySelector("#reprodutor-audio");
+const imagemMeme = document.querySelector("#imagem-meme");
+
+//ouvinte evento 
 exemplo01.addEventListener("click", function(){
     pagina.style.fontFamily = "Verdana";
     mensagem.textContent = "Fonte alterada!";
     mensagem.style.backgroundColor = "yellow";
+
+    // executamos o audio com play
+    reprodutorAudio.play();
+
+    // removemoso atributo 
+    imagemMeme.removeAttribute("hidden");
 });
